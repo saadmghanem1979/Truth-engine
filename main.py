@@ -123,8 +123,9 @@ def generate_word_doc(query, text):
     return doc_io
 
 # 4. الشريط الجانبي (مكتبة الكتب)
+# 4. الشريط الجانبي (مكتبة الكتب)
 with st.sidebar:
-    st.image("watermarked_img_4216407252451230343.jpg", width=200) # أو "logo.jpg" حسب الاسم الذي رفعته به
+    st.image("watermarked_img_4216407252451230343.jpg", width=200)
     st.header("📚 مكتبة الردود والشبهات")
     st.write("مكتبة رقمية لتحميل أحدث الكتب والأبحاث.")
     st.markdown("---")
